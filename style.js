@@ -6,12 +6,12 @@ toggle_dark.addEventListener("click", () => {
   var r = toggle_dark.classList.toggle("active");
   if (r) {
       toggle_icon.className = "far fa-circle";
-      document.body.style.color = "black";
-      toggle_icon.style.color = "black";
-      profile_card.style.backgroundColor = "#ffffff40";
+      document.body.style.color = "#141414";
+      toggle_icon.style.color = "#e5e5e5";
+      profile_card.style.backgroundColor = "#9f9d99d6";
   } else {
         document.body.style.color = "white";
         toggle_icon.className = "fas fa-circle";
-        profile_card.style.backgroundColor = "#201f1857";
+        profile_card.style.backgroundColor = "#070707";
   }
 })

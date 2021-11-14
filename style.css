@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5e5e5;
+    
    
 }
 
@@ -82,9 +82,9 @@ body{
     transform: translate(-50%, -50%);
     width: 300px; 
     border-radius: 10px;
-    box-shadow: 0px 2px 30px rgba(173, 173, 171, 0.638)inset, 0px 2px 5px rgba(63, 56, 31, 0.867) inset;
-    background-color: #1b1808;
-    backdrop-filter: blur(9px)
+    box-shadow: 0px 2px 30px rgba(31, 29, 12, 0.952)inset, 0px 2px 5px rgba(59, 54, 32, 0.644)inset;
+    background-color: #070707;
+    
 }
 
 .profile-card .top{
@@ -233,10 +233,10 @@ body{
 .website-code{
     position: relative;
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 10px auto;
-    box-shadow: 0px 4px 4px #bf9a00;
+    box-shadow: 0px 4px 4px gray;
 }
 
 
