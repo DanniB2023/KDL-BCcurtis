@@ -1,8 +1,9 @@
 
 
-.profile-card .top i {
+.toggle_dark i {
+    display: flex;
     cursor: pointer;
-    margin-left: -110px;
+   
 }
 
 
@@ -18,8 +19,7 @@
 .check-profile{
     text-decoration: none;
 }
-
-.text{
+.profile-card p{
     color: #e5e5e5;
     text-align: center;
 }
