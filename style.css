@@ -75,15 +75,15 @@ body{
 }
 
 .profile-card{
-    padding: 15px;
+    padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px; 
     border-radius: 10px;
-    box-shadow: 0px 2px 30px rgba(173, 173, 171, 0.538)inset, 0px 2px 5px rgba(63, 56, 31, 0.867) inset;
-    background-color: #201f1857;
+    box-shadow: 0px 2px 30px rgba(173, 173, 171, 0.638)inset, 0px 2px 5px rgba(63, 56, 31, 0.867) inset;
+    background-color: #1b1808;
     backdrop-filter: blur(9px)
 }
 
@@ -188,8 +188,8 @@ body{
 }
 
 .col .icon{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: rgba(191, 154, 0, 1.0);
     background: -webkit-linear-gradient(top left, rgba(191, 154, 0, 1.0), rgba(20, 20, 20, 1.0));
@@ -198,7 +198,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     text-align: center;
     margin: 0px auto;
@@ -206,8 +206,8 @@ body{
 }
 
 .sub{
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 5px;
     color: #bf9a00;
 }
 .check-profile{
@@ -233,8 +233,8 @@ body{
 .website-code{
     position: relative;
     display: flex;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin: 10px auto;
     box-shadow: 0px 4px 4px #bf9a00;
 }
