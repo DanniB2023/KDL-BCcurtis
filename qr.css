@@ -93,6 +93,7 @@ body{
 
 
 .profile-card .qrcode-info img{
+    width: 85%;
     margin-left: 20px;
 }
 
