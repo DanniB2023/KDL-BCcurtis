@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Grey+Qo&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    user-select: none;
+}
+
+body{
+    margin: 0px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e5e5;
+}
+
+.bg{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.circle-1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 0% 10% 40% 15%;
+    transform: rotateZ(20deg) translateX(-100px);
+    background: linear-gradient(40deg,black, #bf9a00);
+}
+
+.circle-1 img{
+    width: 50%; 
+}
+.circle-2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 350px;
+    height: 350px;
+    border-radius: 0% 10% 40% 15%;
+    transform: rotateZ(140deg) translateX(-100px) translateY(-100px);
+    background: linear-gradient(40deg,black, #bf9a00);
+}
+
+.sm-circle-1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bf9a00;
+}
+
+.sm-circle-2{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #141414;
+}
+
+.profile-card{
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px rgba(173, 173, 171, 0.438)inset, 0px 2px 5px rgba(235, 227, 199, 0.867) inset;
+    background-color: #201f1857;
+    backdrop-filter: blur(10px)
+}
+
+.profile-card .top i {
+    cursor: pointer;
+    margin-left: -110px;
+}
+
+
+.profile-card .qrcode-info img{
+    margin-left: 20px;
+}
+
+.profile-card .top{
+    margin: -10px 40px 70px 70px;
+    width: 100%;
+}
+.check-profile{
+    text-decoration: none;
+}
