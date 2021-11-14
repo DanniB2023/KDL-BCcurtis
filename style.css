@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    color: #e5e5e5;
    
 }
 
@@ -83,7 +83,7 @@ body{
     width: 300px; 
     border-radius: 10px;
     box-shadow: 0px 2px 30px rgba(31, 29, 12, 0.952)inset, 0px 2px 5px rgba(59, 54, 32, 0.644)inset;
-    background-color: #070707;
+    background-color: #141414;
     
 }
 
@@ -148,6 +148,7 @@ body{
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
+   
 }
 .subheading-1{
     color: #e5e5e5;
@@ -233,10 +234,16 @@ body{
 .website-code{
     position: relative;
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+   
+  
     margin: 10px auto;
     box-shadow: 0px 4px 4px gray;
+}
+
+img{
+    width: 20%;
 }
 
 

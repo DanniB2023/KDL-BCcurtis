@@ -6,7 +6,7 @@ toggle_dark.addEventListener("click", () => {
   var r = toggle_dark.classList.toggle("active");
   if (r) {
       toggle_icon.className = "far fa-circle";
-      document.body.style.color = "#141414";
+      document.body.style.color = "black";
       toggle_icon.style.color = "#e5e5e5";
       profile_card.style.backgroundColor = "#9f9d99d6";
   } else {
